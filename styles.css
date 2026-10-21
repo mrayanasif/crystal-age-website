@@ -1,0 +1,170 @@
+/* Resetting margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Brands Section */
+.brands {
+    text-align: center;
+    padding: 2rem;
+}
+
+.brands h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.search-filter {
+    margin-bottom: 2rem;
+}
+
+.search-filter input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+}
+
+.search-filter button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-filter button:hover {
+    background-color: #555;
+}
+
+/* Brands List */
+.brands-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.brand-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.brand-card img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.brand-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.brand-card ul {
+    list-style-type: none;
+}
+
+.brand-card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.brand-card ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.brand-card ul li a:hover {
+    color: #007BFF;
+}
+
+/* Brand Detail Section */
+.brand-detail {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.brand-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.brand-detail p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.featured-cars {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.car-card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    width: 45%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.car-card h3 {
+    font-size: 1.25rem;
+}
+
+.car-card p {
+    font-size: 1rem;
+    color: #555;
+}
